@@ -107,7 +107,7 @@ body{
 	background: #FFBD00;
 	color: white;
 	font-family: Helvetica;
-	overflow-x: hidden;
+	overflow-x: hidden; /*hides the overflow horizontally. Disable later if it becomes a big problem*/
 	overflow-y: scroll;
   	display: flex; 
   	flex-direction: column; 
