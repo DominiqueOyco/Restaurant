@@ -84,6 +84,8 @@ header li a:hover{
 }*/
 
 .index-promo-table{
+	margin: 0px auto;
+	text-align: center;
 	border-collapse: separate; 
 	border-spacing: 30px 20px
 }
