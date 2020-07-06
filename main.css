@@ -1,6 +1,10 @@
 @font-face { 
-	font-family: roboto-regular; 
-	src: url('/Library/Fonts/Chalkduster.ttf');
+    font-family: 'Chalkduster';
+    src: url('/Library/fonts/Chalkduster.eot');
+    src: url('/Library/fonts/Chalkduster.eot?#iefix') format('embedded-opentype'),
+         url('/Library/fonts/Chalkduster.woff') format('woff'),
+         url('/Library/fonts/Chalkduster.ttf') format('truetype'),
+         url('/Library/fonts/Chalkduster.svg#rsuregular') format('svg');
 }
 
 html{
