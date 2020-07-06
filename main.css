@@ -1,3 +1,8 @@
+@font-face { 
+	font-family: roboto-regular; 
+	src: url('/Library/Fonts/Chalkduster.ttf');
+}
+
 html{
 	scroll-behavior: smooth;
 }
