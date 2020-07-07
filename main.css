@@ -107,6 +107,107 @@ header li a:hover{
 	transform: rotate(90deg);
 }*/
 
+.food-menu {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.food-menu:hover {
+  border: 1px solid #777;
+}
+
+.food-menu img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*.show-cart li {
+	display: flex;
+}*/
+
+/*.card {
+	margin-bottom: 20px;
+}
+.card-img-top {
+	width: 200px;
+	height: 200px;
+	align-self: center;
+}*/
+
+/*.gallery {
+	display: flex;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+.gallery-item {
+	position: relative;
+	display: block;
+	flex: 1 1 0px;
+	transition: transform 500ms;
+	margin: 0 5px;
+}
+
+.gallery:focus-within .gallery-item,
+.gallery:hover .gallery-item{
+	transform: translateX(-25%);
+}
+
+.gallery-item:focus ~ .gallery-item,
+.gallery-item:hover ~ .gallery-item {
+	transform: translateX(25%);
+}
+
+.gallery .gallery-item:focus,
+.gallery .gallery-item:hover {
+	transform: scale(1.5);
+	z-index: 1;
+}
+
+.image-container .gallery-item img {
+	display: block;
+	padding: 2px;
+	width: 100%;
+	object-fit: fill;
+}
+
+.gallery a{
+	text-align: center;
+}
+
+.img-desc {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(29, 106, 154, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+
+	
+	transition: opacity .2s, visibility .2s;
+}
+
+.image-container:hover .image-desc {
+	visibility: visible;
+	opacity: 1;
+}
+
+@media screen and (max-width: 100%) {
+	.gallery {
+		width: 100%;
+	}
+}*/
+
 body{
 	margin-left: 7em;
 	margin-right: 7em;
