@@ -107,6 +107,20 @@ header li a:hover{
 	transform: rotate(90deg);
 }*/
 
+.page-body{
+	background: white;
+	margin: 50px 25px;
+}
+
+.page-body h2{
+	font-family: 'Permanent Marker';
+	color: #81652E;
+}
+
+.page-contents{
+	margin: 1.5em;
+}
+
 .food-container {
 	display: flex;
 	margin-top: 75px;
@@ -131,7 +145,6 @@ header li a:hover{
 	/*float: left;*/
 	width: 180px;
 	background: #cf0830;
-
 }
 
 .food-menu:hover {
@@ -144,10 +157,47 @@ header li a:hover{
 	object-fit: cover;
 }
 
-.desc {
-	padding: 15px;
+.food-title{
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.food-details{
 	text-align: center;
 }
+
+.food-details .food-price{
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*.desc {
+	padding: 5px;
+	text-align: center;
+}*/
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em 1em;
+    cursor: pointer;
+}
+
+.btn-food {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-food:hover {
+    background-color: #2D9CDB;
+}
+
 
 /*.show-cart li {
 	display: flex;
