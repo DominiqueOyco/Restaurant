@@ -101,6 +101,12 @@ header li a:hover{
 	font-size: 18px;
 }
 
+/*.index-promo-table td img{
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg); 
+	transform: rotate(90deg);
+}*/
+
 body{
 	margin-left: 7em;
 	margin-right: 7em;
