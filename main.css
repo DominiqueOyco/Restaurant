@@ -280,6 +280,10 @@ header li a:hover{
 	}
 }*/
 
+p{
+	color: black;
+}
+
 body{
 	margin-left: 7em;
 	margin-right: 7em;
